@@ -1,0 +1,27 @@
+{
+	"schemaVersion": 1,
+	"id": "elytraslot",
+	"version": "${version}",
+	"name": "ElytraSlot - 鞘翅占位槽",
+	"description": "在副手槽上方添加鞘翅专用槽位。鞘翅逻辑完全从胸甲槽转嫁到新槽（胸甲槽禁用鞘翅），飞行耐久/附魔/粒子全部由原版接管。",
+	"authors": ["YourName"],
+	"license": "CC0-1.0",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.yourname.elytraslot.ElytraSlot"
+		],
+		"client": [
+			"com.yourname.elytraslot.ElytraSlotClient"
+		]
+	},
+	"mixins": [
+		"elytraslot.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.19.3",
+		"minecraft": "~26.2",
+		"java": ">=21",
+		"fabric-api": "*"
+	}
+}
