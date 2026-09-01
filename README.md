@@ -19,9 +19,9 @@
 
 单人存档直接拖入mods文件夹，多人（服务器）要正常使用需要双端（服务器，客户端）下载，双端共用一个jar文件即可
 
-jar位置：
+jar产物位置：
 
-ElytraSlot\\build\\libs\\elytraslot-1.0.0.jar
+product/elytraslot-1.0.0.jar
 
 适用版本：
 
