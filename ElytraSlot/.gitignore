@@ -1,0 +1,9 @@
+build/
+.gradle/
+_decomp/
+.idea/
+*.iml
+.vscode/
+.DS_Store
+Thumbs.db
+*.class
