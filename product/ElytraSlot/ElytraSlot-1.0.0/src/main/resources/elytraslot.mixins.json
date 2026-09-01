@@ -1,0 +1,29 @@
+{
+    "required": true,
+    "package": "com.yourname.elytraslot.mixin",
+    "compatibilityLevel": "JAVA_21",
+    "mixins": [
+        "PlayerEntityMixin",
+        "LivingEntityMixin",
+        "InventoryMenuMixin",
+        "EquippableMixin",
+        "ExperienceOrbMixin",
+        "EnchantmentHelperMixin",
+        "LivingEntityAccessor"
+    ],
+    "client": [
+        "client.AbstractContainerScreenAccessor",
+        "client.AbstractContainerScreenClickMixin",
+        "client.InventoryScreenMixin",
+        "client.CreativeModeInventoryScreenMixin",
+        "client.CreativeModeInventoryScreenAccessor",
+        "client.ItemPickerMenuMixin",
+        "client.InventoryMenuAccessor",
+        "client.HumanoidRenderStateMixin",
+        "client.HumanoidMobRendererMixin",
+        "client.WingsLayerMixin"
+    ],
+    "injectors": {
+        "defaultRequire": 1
+    }
+}
