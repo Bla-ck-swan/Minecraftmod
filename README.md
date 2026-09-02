@@ -1,5 +1,8 @@
 [README.md](https://github.com/user-attachments/files/31678943/README.md)
 这是一些目前较高版本java版我的世界模组。我目前对java并不精通，其中也可能还有很多我不知道问题或bug。如果有人可以找出问题或提出意见，我将十分感激。以下是对各个模组的介绍：
+### jar文件获取
+1.从product直接那
+2.在windows上双击build.bat自动生成
 
 # 一：ElytraSlot
 
