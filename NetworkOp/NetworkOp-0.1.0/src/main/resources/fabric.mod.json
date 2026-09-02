@@ -1,0 +1,28 @@
+{
+	"schemaVersion": 1,
+	"id": "networkop",
+	"version": "${version}",
+	"name": "NetworkOp - 网络优化",
+	"description": "区块包攒批 + zstd 压缩，降低带宽压力。服务器与客户端必须同时安装。",
+	"authors": [
+		"yourname"
+	],
+	"license": "CC0-1.0",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.yourname.networkop.NetworkOp"
+		],
+		"client": [
+			"com.yourname.networkop.client.NetworkOpClient"
+		]
+	},
+	"mixins": [
+		"networkop.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.19.3",
+		"minecraft": "~26.2",
+		"java": ">=25"
+	}
+}

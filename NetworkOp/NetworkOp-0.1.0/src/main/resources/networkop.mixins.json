@@ -1,0 +1,17 @@
+{
+  "required": true,
+  "package": "com.yourname.networkop.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "Varint21LengthFieldPrependerMixin",
+    "Varint21FrameDecoderMixin",
+    "PacketEncoderMixin"
+  ],
+  "client": [
+    "ConnectionMixin"
+  ],
+  "server": [],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
